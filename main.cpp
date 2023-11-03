@@ -1,3 +1,4 @@
+//Program version 1
 #include <iostream>
 #include "funcs.h"
 
