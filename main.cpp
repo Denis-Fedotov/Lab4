@@ -15,7 +15,7 @@ int main()
 
     switch (ch)
     {
-        case 1: std::cout<<"Not ready yet."; break;
+        case 1: std::cout<<Add(op1, op2); break;
         case 2: std::cout<<"Not ready yet."; break;
         case 3: std::cout<<"Not ready yet."; break;
         case 4: std::cout<<"Not ready yet."; break;
