@@ -11,9 +11,9 @@ int main()
     std::cout<<"\nPlease, enter the second operand: ";
     std::cin>>op2;
     std::cout<<"\nPlease, choose the operation: ";
-    std::cout<<"\n1. Add"<<"\n2. Subtract"<<"\n3. Multiply"<<"\n4. Divide"<<">";
+    std::cout<<"\n1. Add"<<"\n2. Subtract"<<"\n3. Multiply"<<"\n4. Divide"<<"\n>";
     std::cin>>ch;
-	std::cout<<"\nThe answer is: ";
+	std::cout<<"The answer is: ";
     switch (ch)
     {
         case 1: std::cout<<Add(op1, op2); break;
