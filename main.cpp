@@ -12,7 +12,7 @@ int main()
     std::cout<<"\nPlease, choose the operation: ";
     std::cout<<"\n1. Add"<<"\n2. Substract"<<"\n3. Multiply"<<"\n4. Divide"<<">";
     std::cin>>ch;
-
+	std::cout<<"\nThe answer is: ";
     switch (ch)
     {
         case 1: std::cout<<Add(op1, op2); break;
