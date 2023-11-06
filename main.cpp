@@ -18,8 +18,8 @@ int main()
     {
         case 1: std::cout<<Add(op1, op2); break;
         case 2: std::cout<<Sub(op1, op2); break;
-        case 3: std::cout<<"Not ready yet."; break;
-        case 4: std::cout<<"Not ready yet."; break;
+        case 3: std::cout<<Mult(op1, op2); break;
+        case 4: std::cout<<Div(op1, op2); break;
     }
 
     return 0;
